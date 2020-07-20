@@ -19,5 +19,10 @@ val testVectors = listOf(
         Arguments.of(
                 "0xe40101fa011b20d1de9994b4d039f6548d191eb26786769f580809256b4685ef316805265ea162",
                 "bzz://d1de9994b4d039f6548d191eb26786769f580809256b4685ef316805265ea162"
+        ),
+
+        Arguments.of(
+                "0xe5010170000f6170702e756e69737761702e6f7267",
+                "ipns://app.uniswap.org"
         )
 )
